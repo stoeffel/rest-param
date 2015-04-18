@@ -6,7 +6,7 @@ var it = lab.it;
 var Code = require('code');
 var expect = Code.expect;
 
-var restParam = require('../rest-param');
+var restParam = require('./');
 
 describe('rest-param', function () {
   it('should append an array with the rest params to a function', function(done) {
