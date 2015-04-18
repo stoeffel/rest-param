@@ -1,6 +1,6 @@
 {
   "name": "rest-param",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns a function with an appended rest param",
   "license": "MIT",
   "repository": "stoeffel/rest-param",
