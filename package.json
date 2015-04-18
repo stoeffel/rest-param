@@ -1,0 +1,32 @@
+{
+  "name": "rest-param",
+  "version": "1.0.0",
+  "description": "Returns a function with an appended rest param",
+  "license": "MIT",
+  "repository": "stoeffel/rest-param",
+  "author": {
+    "name": "stoeffel",
+    "email": "schtoeffel@gmail.com",
+    "url": "schtoeffel.ch"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "lab -c -t 100 test.js",
+    "test-watch": "nodemon --exec lab -c test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "function",
+    "rest",
+    "params"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "code": "^1.4.0",
+    "lab": "^5.5.1"
+  }
+}
